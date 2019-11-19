@@ -1,0 +1,116 @@
+/* HTML Elements */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #234d3a !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #234d3a !important;
+}
+
+.navbar-toggler-icon{
+    float: right !important;
+}
+
+.divider{
+    border: 1px solid #234d3a;
+    border-radius: 5px;
+}
+
+.colored-section {
+    background: rgba(237, 244, 224, 0.5);
+    padding: 3% 7% 15%;
+    text-align: left;
+}
+
+.heading{
+    padding-top: 50px;
+}
+
+.big-heading {
+    width: 512px;
+    height: 255px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-size: 55px;
+    color: #234d3a;
+    padding: 95px 0;
+}
+
+.big-heading span {
+    text-decoration: underline;
+    text-decoration-color: #49912E;
+    transition: all .2s ease-in-out;
+}
+
+.big-heading span:hover{
+    color: #49912E;
+    transform: scale(1.1);
+}
+
+.call-button{
+    position: relative;
+    top: 110px;
+    font-size:16px;
+    border-radius: 20px;
+    background-color: #234d3a;
+    transition: all .2s ease-in-out;
+}
+
+.call-button:hover{
+    transform: scale(1.1);
+    background-color: #234d3a;
+}
+
+.call-button i{
+    margin-right: 8px;
+}
+
+.title-image {
+    width: 598px;
+    height: 420px;
+    border-radius: 120px;
+    /* position: absolute; */
+    /* margin-top: 70px; */
+    margin: 30px 0;
+}
