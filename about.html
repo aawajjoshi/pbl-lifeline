@@ -8,7 +8,15 @@
     <title>H.E.L.P</title>
 
     <!-- font awesome -->
-    <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    <script type="text/javascript">
+        (function () {
+            var css = document.createElement('link');
+            css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+    </script>
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -27,7 +35,25 @@
     <link rel="stylesheet" href="css/styles2.css">
 
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,900|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,900|Ubuntu&display=swap"
+        rel="stylesheet">
+
+<script>
+    $(function () {
+    $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+    });
+</script>
+
+<script>
+    jQuery(document).ready(function($){
+    setTimeout(function(){
+        $('.trans--grow').addClass('grow');
+    }, 275);
+});
+</script>
 
 </head>
 
@@ -66,28 +92,36 @@
                 </div>
             </nav>
 
-            <hr class="divider">
+            <hr class="trans--grow divider">
 
             <!-- Title -->
 
             <div class="row heading">
                 <div class="col-lg-6">
                     <h1 class="big-heading">Get <span>help</span> with just a push of a <span>button</span>.</h1>
-                    <button type="button" class="btn btn-dark btn-lg call-button"><i class="fas fa-phone fa-flip-horizontal"></i>   Get your button</button>
+                    <button type="button" class="btn btn-dark btn-lg call-button"><i
+                            class="fas fa-phone fa-flip-horizontal"></i> Get your button</button>
                 </div>
                 <div class="col-lg-6">
                     <img class="title-image" src="images/Wearing Lifeline Autoalert Button.jpg" alt="person">
                 </div>
-
-
             </div>
         </div>
     </section>
 
-    
+
 
     <section>
-        Hello
+        <div class="row">
+            <div class="col-lg-4 left-half">
+                <h1 class="big-heading">Get <span>help</span> with just a push of a <span>button</span>.</h1>
+                <button type="button" class="btn btn-dark btn-lg call-button"><i
+                        class="fas fa-phone fa-flip-horizontal"></i> Get your button</button>
+            </div>
+            <div class="col-lg-8 right-half">
+                <img class="title-image" src="images/7000 Communicator and Autoalert Button.jpg" alt="person">
+            </div>
+        </div>
     </section>
 
 </body>

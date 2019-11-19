@@ -24,6 +24,18 @@ p {
     color: #8f8f8f;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar.scrolled {
+    background-color: #ffffff !important;
+    width: 100%;
+    height: 90px;
+    transition: background-color 200ms linear;
+  }
 
 .navbar-brand {
     font-family: "Ubuntu";
@@ -34,6 +46,7 @@ p {
     left: 50%;
     transform: translateX(-50%);
 }
+
 
 .nav-item {
     padding: 0 18px;
@@ -46,11 +59,22 @@ p {
     color: #234d3a !important;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     float: right !important;
 }
 
-.divider{
+.trans--grow {
+    -webkit-transition: width 1s ease-out;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 1s ease-out;
+    width: 0%;
+}
+
+.grow{
+    width:100%;
+}
+
+.divider {
     border: 1px solid #234d3a;
     border-radius: 5px;
 }
@@ -61,7 +85,7 @@ p {
     text-align: left;
 }
 
-.heading{
+.heading {
     padding-top: 50px;
 }
 
@@ -83,26 +107,26 @@ p {
     transition: all .2s ease-in-out;
 }
 
-.big-heading span:hover{
+.big-heading span:hover {
     color: #49912E;
     transform: scale(1.1);
 }
 
-.call-button{
+.call-button {
     position: relative;
     top: 110px;
-    font-size:16px;
+    font-size: 16px;
     border-radius: 20px;
     background-color: #234d3a;
     transition: all .2s ease-in-out;
 }
 
-.call-button:hover{
+.call-button:hover {
     transform: scale(1.1);
     background-color: #234d3a;
 }
 
-.call-button i{
+.call-button i {
     margin-right: 8px;
 }
 
