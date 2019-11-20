@@ -8,6 +8,9 @@ body {
     font-family: "Montserrat";
     font-weight: 400;
     text-align: center;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h1,
@@ -25,16 +28,38 @@ p {
 }
 
 
-.navbar{
+.navbar {
+    background-color: rgba(237, 244, 224, 0.5);
+    padding-top: 3%;
     padding-left: 7%;
-    padding-right: 7%
+    padding-right: 7%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: background-color 0.2s ease-in-out;
 }
+
+.navbar.scrolled {
+    background-color: #fda77f !important;
+    width: 100%;
+    padding: 2% 7% 2%;
+    transition: background-color 200ms linear;
+}
+
+.navbar.scrolled .nav-link{
+    color: #445c3c !important;
+    text-transform: uppercase;
+}
+
 
 .navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
-    color: #49912E !important;
+    color: #234d3a !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-item {
@@ -44,55 +69,110 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat";
-    font-weight: 300;
+    font-weight: 400;
+    color: #234d3a !important;
+}
+
+.navbar-toggler-icon {
+    float: right !important;
 }
 
 
-/* .navbar-brand {
-    padding-left: 12px;
-    top: 15px;
+/* HEADER SECTION */
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 85px;
+.header-section {
+    padding-top: 1px !important;
+}
 
-    display: flex;
-    align-items: center;
-    text-align: center;
+.trans--grow {
+    -webkit-transition: width 1s ease-out;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 1s ease-out;
+    width: 0%;
+}
 
-    color: #49912E !important;
-} */
+.grow {
+    width: 100%;
+}
+
+.divider {
+    border: 1px solid #234d3a;
+    border-radius: 5px;
+}
+
 
 .colored-section {
-    background: #F9F9F9;
+    background: rgba(237, 244, 224, 0.5);
     padding: 3% 7% 15%;
     text-align: left;
+}
+
+.heading {
+    padding-top: 50px;
 }
 
 .big-heading {
     width: 512px;
     height: 255px;
     font-family: "Montserrat";
-    font-weight: 900;
+    font-weight: 600;
     font-size: 3.5rem;
     line-height: 1.5;
     font-size: 55px;
-    color: #000000;
-    padding: 120px 0;
+    color: #234d3a;
+    padding: 95px 0;
 }
 
-.big-heading span{
+.big-heading span {
     text-decoration: underline;
     text-decoration-color: #49912E;
+    transition: all .2s ease-in-out;
+}
+
+.big-heading span:hover {
+    color: #49912E;
+    transform: scale(1.1);
+}
+
+
+.call-button {
+    position: relative;
+    top: 110px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #234d3a;
+    transition: all .2s ease-in-out;
+}
+
+.call-button:hover {
+    transform: scale(1.1);
+    background-color: #234d3a;
+}
+
+.call-button i {
+    margin-right: 8px;
 }
 
 .title-image {
     width: 598px;
     height: 420px;
     border-radius: 120px;
-    position: absolute;
-    margin-top: 70px;
-    /* margin: 30px 0; */
+    /* position: absolute; */
+    /* margin-top: 70px; */
+    margin: 30px 0;
 }
+
+
+.two-halves{
+    background: linear-gradient(90deg, #b3cb8e 25%, #74845a 25%);
+}
+
+.product-image {
+    width: 398px;
+    height: 220px;
+    position: relative;
+    top: 110px;
+    left: 80px;
+    z-index: 1;
+}
+
