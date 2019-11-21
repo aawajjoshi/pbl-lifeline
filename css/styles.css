@@ -133,7 +133,7 @@ p {
     font-size: 55px;
     color: #234d3a;
     padding: 95px 0;
-    float:right;
+    text-align: right;
 }
 
 .big-heading span {
@@ -203,5 +203,8 @@ article {
     width: 512px;
     height: 255px;
     padding: 127px 0;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
