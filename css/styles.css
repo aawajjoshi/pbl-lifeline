@@ -134,7 +134,19 @@ p {
     padding: 95px 0;
 }
 
-.big-heading-right {
+.big-heading-about {
+    width: 86.9%;
+    height: 52.5%;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-size: 55px;
+    color: #234d3a;
+    padding: 95px 0;
+}
+
+.big-heading-about-right {
     width: 86.9%;
     height: 52.5%;
     font-family: "Montserrat";
