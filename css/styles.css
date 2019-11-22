@@ -207,10 +207,10 @@ p {
     background: rgba(201, 217, 158, 0.9);
 }
 
-.two-halves{
-    /* background: linear-gradient(90deg, #b3cb8e 25%, #74845a 25%); */
+/* .two-halves{
+    background: linear-gradient(90deg, #b3cb8e 25%, #74845a 25%);
     background: rgba(201, 217, 158, 0.9);
-}
+} */
 
 .product-image {
     width: 398px;
