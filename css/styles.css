@@ -134,6 +134,18 @@ p {
     padding: 95px 0;
 }
 
+.big-heading-right {
+    width: 86.9%;
+    height: 52.5%;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-size: 55px;
+    color: #234d3a;
+    padding: 95px 0;
+    text-align: right;
+}
 
 .big-heading span {
     text-decoration: underline;
@@ -223,8 +235,6 @@ p {
 
 article {
     text-indent: 3em;
-    width: 512px;
-    height: 255px;
     padding: 127px 0;
     line-height: 30px;
     text-align: justify;
