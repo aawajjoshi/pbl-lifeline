@@ -141,11 +141,21 @@ p {
     transition: all .2s ease-in-out;
 }
 
+.big-heading-right span {
+    text-decoration: underline;
+    text-decoration-color: #49912E;
+    transition: all .2s ease-in-out;
+}
+
 .big-heading span:hover {
     color: #49912E;
     transform: scale(1.1);
 }
 
+.big-heading-right span:hover {
+    color: #49912E;
+    transform: scale(1.1);
+}
 
 .call-button {
     position: relative;
@@ -207,5 +217,15 @@ p {
     top: 110px;
     left: 80px;
     z-index: 1;
+}
+
+article {
+    text-indent: 3em;
+    width: 512px;
+    height: 255px;
+    padding: 127px 0;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 

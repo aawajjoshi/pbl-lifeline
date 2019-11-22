@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>H.E.L.P</title>
+
+    <!-- font awesome -->
+    <script type="text/javascript">
+        (function () {
+            var css = document.createElement('link');
+            css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+    </script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,900|Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            setTimeout(function () {
+                $('.trans--grow').addClass('grow');
+            }, 275);
+        });
+    </script>
+
+</head>
+
+<body>
+
+
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a class="navbar-brand mx-auto" href="">H.E.L.P</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="colored-section header-section " id="title">
+        <div class="container-fluid">
+
+            <hr class="trans--grow divider">
+
+            <!-- Title -->
+
+    <div class="row">
+        <div class="col-lg-6">
+            <h1 class="big-heading"><span>About Us</span></h1>
+        </div>
+        <div class="col-lg-6">
+            <article>
+                The local Health Emergency Lifeline Program, Inc. (H.E.L.P.) is a Lifeline Program Partner with Philips Lifeline.  HELP buys and then leases equipment to subscribers within Nodaway County to use to signal when a medical emergency occurs.  Knowing that emergency assistance is available with the push of a button allows subscribers to remain in their own home and maintain an independent lifestyle. (HELP) is an all-volunteer organization providing LifelineTM technology to community members living in Nodaway County and designated adjacent communities. 
+            </article>
+        </div>
+    </div>
+</div>
+</section>
+
+    <section class="colored-section">
+        <div class="row">
+            <div class="col-lg-6">
+                <article>
+                    As volunteers we strive to provide dependable and reliable services linking subscribers to an emergency response center in case of a health emergency through appropriate technology at reasonable cost thereby allowing the subscriber to remain independently in the comfort and safety of their personal residence.
+                </article>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="big-heading-right"><span>Our Mission</span></h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="colored-section">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="big-heading"><span>Volunteers</span></h1>
+            </div>
+            <div class="col-lg-6">
+                <article>
+                    As an all-volunteer organization, Lifeline services are provided by dedicated Nodaway County community members who find fulfillment in serving their neighbors in need.
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="colored-section">
+        <div class="row">
+            <div class="col-lg-6">
+                <article>
+                    With the touch of a button, a Lifeline subscriber is connected to central monitoring staff that assess the emergency and quickly send the appropriate assistance, 24 hours a day,7 days a week, even on holidays.  Lifeline subscribers remain at home, leading more comfortable and fulfilling lives.
+                </article>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="big-heading-right"><span>Response </span>with the touch of a <span>button</span>.</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="colored-section">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="big-heading" style="height:455px;"><span>Affordable</span></h1>
+            </div>
+            <div class="col-lg-6">
+                <article>
+                    Program equipment is purchased from Philips Lifeline by HELP.  HELP leases the equipment to subscribers.  Installation and service calls are free.  The monthly lease cost to subscribers is reasonable and considerably less than similar programs operated through the United States.  Enrolled subscribers pay a reasonable monthly fee which covers the cost of Central Monitoring fees and minimal administrative costs.  Keeping costs low is an important feature of the HELP program.  Automatic bank payment is preferred.  For specific fees, see “Contact Info/Fees” elsewhere in this website.
+                    HELP has consistently received funding from the local United Way, Nodaway County Senior Tax Board, and various service groups throughout the county to provide units to subscribers with modest means.  HELP has also been assisted by The Gladys Rickard Trust with funds to purchase the communication units and accessories.
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    </section>
+
+
+</body>
+
+</html>
