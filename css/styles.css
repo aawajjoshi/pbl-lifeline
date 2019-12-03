@@ -163,7 +163,13 @@ h6 {
     transition: all .2s ease-in-out;
 }
 
-.big-heading-right span {
+.big-heading-about span {
+    text-decoration: underline;
+    text-decoration-color: #49912E;
+    transition: all .2s ease-in-out;
+}
+
+.big-heading-about-right span {
     text-decoration: underline;
     text-decoration-color: #49912E;
     transition: all .2s ease-in-out;
@@ -174,7 +180,12 @@ h6 {
     transform: scale(1.1);
 }
 
-.big-heading-right span:hover {
+.big-heading-about span:hover {
+    color: #49912E;
+    transform: scale(1.1);
+}
+
+.big-heading-about-right span:hover {
     color: #49912E;
     transform: scale(1.1);
 }
