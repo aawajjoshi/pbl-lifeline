@@ -32,33 +32,16 @@
     </script>
 
     <!-- css -->
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,900|Ubuntu&display=swap"
         rel="stylesheet">
 
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $(".navbar");
-                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-            });
-        });
-    </script>
-
-    <script>
-        jQuery(document).ready(function ($) {
-            setTimeout(function () {
-                $('.trans--grow').addClass('grow');
-            }, 275);
-        });
-    </script>
-
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-scroll">
 
 
 
@@ -67,7 +50,7 @@
 
         <a class="navbar-brand mx-auto" href="">H.E.L.P</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -75,97 +58,242 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link nav-home" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pricing.html">Pricing</a>
+                    <a class="nav-link nav-about" href="about.html">About</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link nav-pricing" href="index.html#pricing">Plans</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link nav-contact" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section class="colored-section header-section " id="title">
-        <div class="container-fluid">
 
-            <hr class="trans--grow divider">
 
-            <!-- Title -->
 
-    <div class="row">
-        <div class="col-lg-6">
-            <h1 class="big-heading"><span>About Us</span></h1>
-        </div>
-        <div class="col-lg-6">
-            <article>
-                The local Health Emergency Lifeline Program, Inc. (H.E.L.P.) is a Lifeline Program Partner with Philips Lifeline.  HELP buys and then leases equipment to subscribers within Nodaway County to use to signal when a medical emergency occurs.  Knowing that emergency assistance is available with the push of a button allows subscribers to remain in their own home and maintain an independent lifestyle. (HELP) is an all-volunteer organization providing LifelineTM technology to community members living in Nodaway County and designated adjacent communities. 
-            </article>
-        </div>
+    <div class="parallax background-image1">
     </div>
-</div>
-</section>
+    <div class="caption">
+        <span class="border about-heading">We are H.E.L.P</span>
 
-    <section class="colored-section">
-        <div class="row">
-            <div class="col-lg-6">
-                <article>
-                    As volunteers we strive to provide dependable and reliable services linking subscribers to an emergency response center in case of a health emergency through appropriate technology at reasonable cost thereby allowing the subscriber to remain independently in the comfort and safety of their personal residence.
-                </article>
-            </div>
-            <div class="col-lg-6">
-                <h1 class="big-heading-right"><span>Our Mission</span></h1>
-            </div>
-        </div>
-    </section>
+    </div>
 
-    <section class="colored-section">
-        <div class="row">
-            <div class="col-lg-6">
-                <h1 class="big-heading"><span>Volunteers</span></h1>
-            </div>
-            <div class="col-lg-6">
-                <article>
-                    As an all-volunteer organization, Lifeline services are provided by dedicated Nodaway County community members who find fulfillment in serving their neighbors in need.
-                </article>
-            </div>
-        </div>
-    </section>
+    <div class="history">
 
-    <section class="colored-section">
-        <div class="row">
-            <div class="col-lg-6">
-                <article>
-                    With the touch of a button, a Lifeline subscriber is connected to central monitoring staff that assess the emergency and quickly send the appropriate assistance, 24 hours a day,7 days a week, even on holidays.  Lifeline subscribers remain at home, leading more comfortable and fulfilling lives.
-                </article>
-            </div>
-            <div class="col-lg-6">
-                <h1 class="big-heading-right"><span>Response </span>with the touch of a <span>button</span>.</h1>
-            </div>
-        </div>
-    </section>
+        <h1 class=about-heading>Our History</h1>
+        <p>
+            In 1983 Bonnie Williams, daughter of respected Maryville resident Inez Bowman, told her mother about an
+            emergency response system that was available in Iowa City, IA. She thought her mother might be interested in
+            the
+            program. Inez was intrigued by the concept and brought it to the Maryville Citizens for Community Action
+            (MCCA)
+            for consideration. The MCCA Human Resources Task Force thought it warranted further investigation and
+            approached
+            St. Francis Hospital to see if they would be interested in establishing the program. The Hospital had
+            already
+            heard of the program and they were considering it.
+        </p>
+        <p>
 
-    <section class="colored-section">
-        <div class="row">
-            <div class="col-lg-6">
-                <h1 class="big-heading" style="height:455px;"><span>Affordable</span></h1>
-            </div>
-            <div class="col-lg-6">
-                <article>
-                    Program equipment is purchased from Philips Lifeline by HELP.  HELP leases the equipment to subscribers.  Installation and service calls are free.  The monthly lease cost to subscribers is reasonable and considerably less than similar programs operated through the United States.  Enrolled subscribers pay a reasonable monthly fee which covers the cost of Central Monitoring fees and minimal administrative costs.  Keeping costs low is an important feature of the HELP program.  Automatic bank payment is preferred.  For specific fees, see “Contact Info/Fees” elsewhere in this website.
-                    HELP has consistently received funding from the local United Way, Nodaway County Senior Tax Board, and various service groups throughout the county to provide units to subscribers with modest means.  HELP has also been assisted by The Gladys Rickard Trust with funds to purchase the communication units and accessories.
-                </article>
-            </div>
-        </div>
-    </section>
+            A committee, consisting of Martin Goedken from St. Francis Hospital, Mildred Davis, Inez Bowman and Donna
+            Holt
+            traveled to St. Joseph, MO to talk to the Lifeline volunteer coordinator to see how their organization
+            operated.
+            After this meeting the St. Francis Hospital administration decided that the funds were not available to buy
+            the
+            units necessary to begin the program. Undaunted, a group of individuals decided to undertake the program.
+
+        </p>
+        <p>
+
+            Frank strong volunteered to help file the articles of incorporation that were signed by Inez Bowman as vice
+            president, Bob Bush as president and Donna Holt as treasurer. On May 11, 1984, the Health Emergency Lifeline
+            Program (HELP) became a not-for-profit corporation. A federal tax number was issued to the new organization
+            on
+            October 18, 1984. The all-volunteer organization known as, the Health Emergency Lifeline Program, Inc. was
+            born.
+
+        </p>
+
+    </div>
+
+    <div class="parallax background-image2"></div>
+
+    <div class="history">
+
+        <p>
+            The first contract with Lifeline Systems, Inc., whose home office is in Massachusetts, was signed on June
+            29, 1984. The units and new response center were shipped, and the first installation was set up for
+            Wednesday, August 22, 1984 at 11:00 a.m. for Florence Zimmerman. It was quite a media event KQTV out of St.
+            Joseph, MO and local media attending.
+        </p>
+        <p>
+
+            Funding to start the program came from two large donations. The St. Francis Hospital Auxiliary donated
+            $5,000 and the Business and Professional Women (BPW) donated $5,000 that had come to them from a bequest.
+            Officers of HELP decided to lease the equipment rather than purchase it outright. This turns out to have
+            been a wise decision. HELP would not have been able to expand the program if the home units and response
+            center had to be purchased. At the time, individual units cost $495 and the response center $7,000.
+
+        </p>
+        <p>
+
+            Leasing has allowed HELP to stay current with the latest technology. The life of each lease is five years.
+            When the time period for each lease is ended, HELP’s Executive Committee seeks approval from its Board of
+            Directors to enter a new lease for the same number, a lesser number or a greater number of units. That
+            decision is driven by whether there are several names on the waiting list. With over 150 units in service in
+            2008, the program continues to be a valuable resource for Nodaway county community members and those living
+            in the surrounding area whose doctors utilize St. Francis Hospital and Health Services. In the summer of
+            2004, the volunteers who operate the program were happy to celebrate 20 years of dedicated service and
+            caring for their neighbors through the Health Emergency Lifeline Program.
+
+        </p>
+
+    </div>
+    <div class="parallax background-image3"></div>
+
+    <div class="history">
+
+        <p>
+            In 2011 a transition from site monitoring at St. Francis Hospital to central monitoring from a location in
+            Massachusetts was successfully completed. This change occurred because the site monitoring unit at St.
+            Francis would become obsolete in 2012-- no longer able to be serviced. Site monitoring was free; central
+            monitoring carries a monthly charge for each unit monitored. HELP has converted all program units from
+            leased to owned property over the past 5 years with the return of the final leased units to Lifeline in
+            February 2015. The commitment to ownership allows HELP to keep costs as affordable as possible to our
+            Nodaway County subscribers.
+        </p>
+        <p>
+
+            HELP current inventory has declined due to the discontinuance of the first digital units (DT 1000) and
+            rollovers, we currently have an inventory of 88 units which includes the addition of cellular based units.
+            HELP still has some DT 1000s in use and are gradually replacing them as they fail to work. Future purchases
+            will include both landline (6900 Model Units) and cellular (7000 Series Units) communicators. In addition,
+            there are units now being used that are mobile and do not use a base communicator. Communication is all
+            through the button.
+
+        </p>
+        <p>
+
+            Since 1984, HELP has served 1,155 subscribers as of 2019. Of the current subscribers, 78 have had Lifeline
+            between one to ten years; 6 have had Lifeline over ten years of which 2 subscribers have received services
+            for more than 15 years. Remaining in the security and comfort of their own home has been a reality for these
+            valued members of our community.
+
+        </p>
+
+    </div>
+
+    <div class="parallax background-image4"></div>
     
-    </section>
+
+    <!-- Contact Us -->
+
+
+
+    <section id="contact">
+            <h2 class="pricing-heading">Get Help Today</h2>
+            <p>Contact one of local members to find out how you can become a subscriber.</p>
+            <div class="row">
+                <div class="contact-column col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="card">
+                        <img class="card-img-top" src="images/janet.gif" alt="Card image">
+                        <div class="card-body">
+
+                            <h3>Janet Hull</h3>
+                            <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                            <div class="circle">
+                                <h3>660-582-7527</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-column col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="card">
+                        <img class="card-img-top" src="images/russ.gif" alt="Card image">
+                        <div class="card-body">
+
+                            <h3>Russ Schuster</h3>
+                            <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                            <div class="circle">
+                                <h3>660-853-1776</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-column col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="card">
+                        <img class="card-img-top" src="images/doug.gif" alt="Card image">
+                        <div class="card-body">
+
+                            <h3>Doug Keever</h3>
+                            <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                            <div class="circle">
+                                <h3>660-562-7779</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-column col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="card">
+                        <img class="card-img-top" src="images/jim.gif" alt="Card image">
+                        <div class="card-body">
+
+                            <h3>Jim & Barbara York</h3>
+                            <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                            <div class="circle">
+                                <h3>660-582-5060</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <p class="contact-paragraph">Alternatively, you can call Philips Lifeline who may quote you a fee that is
+                slightly higher than what H.E.L.P charges. They will take
+                your information and forward it to us. At the time of our follow-up call to you, we will quote you the
+                local fee. <a href="
+            http://www.lifelinesys.com/content/lifeline-products/lifeline-caregiver
+            ">Click here</a> to visit the Philip Lifeline website.
+            </p>
+        </section>
+
+
+        <footer id="footer">
+                <div class="footer-section">
+                    <p>The Health Emergency Lifeline Program does not discriminate on the basis of race, color, creed,
+                        religion, national origin, sex, age, or handicap in its program.</p>
+                    <p>© Copyright 2019 H.E.L.P</p>
+                </div>
+            </footer>
+
+    <script src="javascript/about.js"></script>
+    <script src="javascript/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 
 </body>

@@ -32,35 +32,17 @@
     </script>
 
     <!-- css -->
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
+
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,900|Ubuntu&display=swap"
         rel="stylesheet">
 
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $(".navbar");
-                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-            });
-        });
-    </script>
-
-    <script>
-        jQuery(document).ready(function ($) {
-            setTimeout(function () {
-                $('.trans--grow').addClass('grow');
-            }, 275);
-        });
-    </script>
-
 </head>
 
-<body>
-
-
+<body data-spy="scroll" data-target="#navbar-scroll">
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -75,69 +57,330 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link nav-home" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pricing.html">Pricing</a>
+                    <a class="nav-link nav-about" href="#about">About</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link nav-pricing" href="#pricing">Plans</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link nav-contact" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section class="colored-section header-section " id="title">
-        <div class="container-fluid">
 
-            <hr class="trans--grow divider">
+    <!-- Header Section -->
+    <main>
+        <section class="colored-section header-section" id="title">
+            <div>
 
-            <!-- Title -->
+                <hr class="trans--grow divider">
 
+                <!-- Title -->
+
+                <div class="row heading">
+                    <div class="col-lg-6">
+                        <h1 class="big-heading">Get <span>help</span> with just a push of a <span>button</span>.</h1>
+                        <button type="button" class="btn btn-dark btn-lg call-button"><i
+                                class="fas fa-phone fa-flip-horizontal"></i> Get your button</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="title-image" src="images/Wearing Lifeline Autoalert Button.jpg" alt="person">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Features Section -->
+
+        <section id="features">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="feature-box col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fas fa-check-circle fa-4x icon"></i>
+                        <h3 class="feature-title">Easy to use.</h3>
+                        <p>Emergency assistance is available with the push of a button.</p>
+                    </div>
+                    <div class="feature-box col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fas fa-piggy-bank fa-4x icon"></i>
+                        <h3 class="feature-title">More savings.</h3>
+                        <p>Affordable leasing options with free installation and service calls.</p>
+                    </div>
+                    <div class="feature-box col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fas fa-heart fa-4x icon"></i>
+                        <h3 class="feature-title">Guaranteed to work.</h3>
+                        <p>Stay connected to central monitoring staff 24/7, even on holidays.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+
+        <!-- About Us Section -->
+
+        <section id="about">
+            <h1 class="about-heading">We are here to H.E.L.P</h1>
             <div class="row heading">
                 <div class="col-lg-6">
-                    <h1 class="big-heading">Get <span>help</span> with just a push of a <span>button</span>.</h1>
-                    <button type="button" class="btn btn-dark btn-lg call-button"><i
-                            class="fas fa-phone fa-flip-horizontal"></i> Get your button</button>
+                    <img class="about-image" src="images/people19.jpg" alt="person">
                 </div>
                 <div class="col-lg-6">
-                    <img class="title-image" src="images/Wearing Lifeline Autoalert Button.jpg" alt="person">
+                    <p class="about-paragraph1 wow fadeInRight" data-wow-delay="0.2s">Health Emergency Lifeline Program,
+                        Inc. (H.E.L.P) is an all-volunteer
+                        organization providing
+                        Lifeline™ technology to community members living in Nodaway County and designated adjacent
+                        communities. As a Lifeline Program Partner with Philips Lifeline, H.E.L.P buys and leases
+                        equipment
+                        to subscribers within Nodaway County to use to signal when a medical emergency occurs. Knowing
+                        that
+                        emergency assistance is available with the push of a button allows subscribers to remain in
+                        their
+                        own home and maintain an independent lifestyle.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="about-paragraph2 wow fadeInLeft" data-wow-delay="0.2s">As an all-volunteer organization,
+                        Lifeline services are provided by Nodaway
+                        County community members who find fulfillment in serving their neighbors in need. With the touch
+                        of
+                        a button, a Lifeline subscriber is connected to central monitoring staff that assess the
+                        emergency
+                        and quickly send the appropriate assistance, 24 hours a day, 7 days a week, even on holidays.
+                        Lifeline subscribers remain at home, leading more comfortable and fulfilling lives.</p>
+                    <br>
+                    <a href="about.html" class="button btn btn-dark btn-lg about-button">Learn More</a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="about-image" src="images/people.jpg" alt="person">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="top-half"> 
-        <div class="container-fluid statement1">
-            <h1>Hello This is a statement</h1>
-        </div>
-    </section>
-    <section class="bottom-half">
-        <div class="container-fluid statement2">
-            <p>As volunteers we strive to provide dependable and reliable services linking subscribers to an emergency
-                response center in case of a health emergency through appropriate technology at reasonable cost thereby
-                allowing the subscriber to remain independently in the comfort and safety of their personal residence.
+
+
+        <!-- Price Plans Section -->
+
+        <section id="pricing">
+
+            <h2 class="pricing-heading">A Plan for Your Health Needs</h2>
+            <p>H.E.L.P. is a Lifeline Program Partner with Philips Lifeline and offers affordable leasing options of
+                Philips medial equipment to enrolled subscribers.</p>
+
+            <div class="row">
+                <div class="pricing-column col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Homesafe 6900</h3>
+                        </div>
+                        <div class="card-body">
+                            <img class="product-image" src="images/6900_standard.png" alt="6900_standard">
+                            <h2 class="price-text">$25 / mo</h2>
+                            <p>Landline<i class="fas fa-phone-rotary"></i></p>
+                            <p>Personal Help Button <i class="fas fa-check-circle product-check"></i></p>
+                            <hr class="card-divider">
+                            <p>Fall Detection Button <span style="color: green;"> + $10</span></p>
+                            <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Homesafe 7000</h3>
+                        </div>
+                        <div class="card-body">
+                            <img class="product-image" src="images/7000_standard.png" alt="7000_standard">
+                            <h2 class="price-text">$25 / mo</h2>
+                            <p>Cellular</p>
+                            <p>Personal Help Button <i class="fas fa-check-circle product-check"></i></p>
+                            <hr class="card-divider">
+                            <p>Fall Detection Button <span style="color: green;"> + $10</span></p>
+                            <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>GoSafe2 Mobile</h3>
+                        </div>
+                        <div class="card-body">
+                            <img class="product-image" src="images/gosafe2.png" alt="gosafe2">
+                            <h2 class="price-text">$45 / mo</h2>
+                            <p>Cellular</p>
+                            <p>Portable <i class="fas fa-check-circle product-check"></i></p>
+                            <p>Personal Help Button <i class="fas fa-check-circle product-check"></i></p>
+                            <p>Fall Detection Button <i class="fas fa-check-circle product-check"></i></p>
+                            <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Testimonials -->
+
+        <section id="testimonials">
+
+            <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active container-fluid">
+                        <h2 class="testimonial-text">I live better knowing that my GoSafe with AutoAlert will detect my
+                            falls.</h2>
+                        <img class="testimonial-image" src="images/review1.jpeg" alt="mary-jane">
+                        <em>Mary Jane, Maryville MO</em>
+                    </div>
+                    <div class="carousel-item container-fluid ">
+                        <h2 class="testimonial-text">After getting a Homesafe with an AutoAlert button, I am not afraid
+                            to
+                            live alone anymore.</h2>
+                        <img class="testimonial-image" src="images/review2.jpg" alt="david-smith">
+                        <em>David Smith, Omaha NE</em>
+                    </div>
+                    <!-- <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div> -->
+                    <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+        </section>
+
+        <!-- Press -->
+
+        <section id="press">
+            <img class="press-logo" src="images/philips-lifeline.png" alt="philips-logo">
+            <img class="press-logo" src="images/mosaic-logo.png" alt="mosaic-logo">
+            <img class="press-logo" src="images/united-logo.png" alt="united-way-logo">
+            <!-- <img class="press-logo" src="images/nced-logo.png" alt="nced-logo"> -->
+
+        </section>
+
+
+
+       
+        <!-- Contact Us -->
+
+
+
+        <section id="contact">
+            <h2 class="pricing-heading">Get Help Today</h2>
+            <p>Contact one of local members to find out how you can become a subscriber.</p>
+            <div class="row">
+                <div class="contact-column col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="card">
+                        <img class="card-img-top" src="images/janet.gif" alt="Card image">
+                        <div class="card-body">
+
+                            <h3>Janet Hull</h3>
+                            <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                            <div class="circle">
+                                <h3>660-582-7527</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-column col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="card">
+                        <img class="card-img-top" src="images/russ.gif" alt="Card image">
+                        <div class="card-body">
+
+                            <h3>Russ Schuster</h3>
+                            <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                            <div class="circle">
+                                <h3>660-853-1776</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-column col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="card">
+                        <img class="card-img-top" src="images/doug.gif" alt="Card image">
+                        <div class="card-body">
+
+                            <h3>Doug Keever</h3>
+                            <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                            <div class="circle">
+                                <h3>660-562-7779</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-column col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="card">
+                        <img class="card-img-top" src="images/jim.gif" alt="Card image">
+                        <div class="card-body">
+
+                            <h3>Jim & Barbara York</h3>
+                            <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                            <div class="circle">
+                                <h3>660-582-5060</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <p class="contact-paragraph">Alternatively, you can call Philips Lifeline who may quote you a fee that is
+                slightly higher than what H.E.L.P charges. They will take
+                your information and forward it to us. At the time of our follow-up call to you, we will quote you the
+                local fee. <a href="
+            http://www.lifelinesys.com/content/lifeline-products/lifeline-caregiver
+            ">Click here</a> to visit the Philip Lifeline website.
             </p>
-        </div>
-    </section>
+        </section>
 
-    <section>
-        <div class="row two-halves">
-            <div class="col-lg-4 left-half">
-                <img class="product-image" src="images/7000 Communicator and Autoalert Button.jpg" alt="person">
+        <footer id="footer">
+            <div class="footer-section">
+                <p>The Health Emergency Lifeline Program does not discriminate on the basis of race, color, creed,
+                    religion, national origin, sex, age, or handicap in its program.</p>
+                <p>© Copyright 2019 H.E.L.P</p>
             </div>
-            <div class="col-lg-8 right-half">
-                <!-- <h1 class="big-heading">Get <span>help</span> with just a push of a <span>button</span>.</h1> -->
-                <button type="button" class="btn btn-dark btn-lg call-button"><i
-                        class="fas fa-phone fa-flip-horizontal"></i> Get your button</button>
-            </div>
-        </div>
-    </section>
+        </footer>
+
+
+    </main>
+
+
+    <script src="javascript/main.js"></script>
+    <script src="javascript/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 
 </body>
 
