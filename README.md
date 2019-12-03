@@ -6,10 +6,10 @@
 
 ## Source
 
-* Forked from - https://github.com/denisecase/node-express-mvc
-* [Source](https://github.com/toshnewton/mvc-app)
+-Forked from - https://github.com/denisecase/pbl-lifeline
+-[Source](https://github.com/aawajjoshi/pbl-lifeline)
 
-<br />
+<br/>
 
 ## Group Members
 
@@ -27,9 +27,7 @@
 - [Aawaj](https://github.com/aawajjoshi)
 - [Tosh](https://github.com/toshnewton)
 
-## Links
 
-- [Source](https://github.com/denisecase/pbl-lifeline)
 
 ## Client
 
