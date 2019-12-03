@@ -48,6 +48,8 @@ h6 {
     width: 100%;
     padding: 2% 7% 2%;
     transition: background-color 200ms linear;
+    position: fixed;
+    top: 0;
 }
 
 .navbar.scrolled .nav-link {
