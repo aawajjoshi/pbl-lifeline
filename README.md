@@ -6,8 +6,8 @@
 
 ## Source
 
--Forked from - https://github.com/denisecase/pbl-lifeline
--[Source](https://github.com/aawajjoshi/pbl-lifeline)
+* Forked from - https://github.com/denisecase/pbl-lifeline
+* [Source](https://github.com/aawajjoshi/pbl-lifeline)
 
 <br/>
 
@@ -32,16 +32,6 @@
 ## Client
 
 - Russ Schuster <schuster1953@embarqmail.com> 
-
-## Team
-
-Northwest Missouri State University
-
-44-563 Web Apps and Services - Fall 2019
-
-- Section 1 - Dr. Denise Case
-- Section 2 - Dr. Denise Case
-- Section 3 - Dr. Michael Rogers
 
 ## Included
 
